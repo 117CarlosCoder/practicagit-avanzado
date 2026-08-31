@@ -8,11 +8,19 @@ function actualizar() {
 }
 
 btnInc.addEventListener('click', () => {
-  contador = contador * 5;
-  actualizar();
+  if (contador >= 0) {
+    contador++;
+    actualizar();
+  } else {
+    alert("El contador no puede ser negativo");
+  }
 });
 
 btnDec.addEventListener('click', () => {
-  contador--;
-  actualizar();
+  if (contador <= 0) {
+    alert("El contador no puede ser negativo");
+  } else {
+    contador--;
+    actualizar();
+  }
 });
