@@ -8,7 +8,7 @@ function actualizar() {
 }
 
 btnInc.addEventListener('click', () => {
-  contador++;
+  contador = contador * 5;
   actualizar();
 });
 
