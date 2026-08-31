@@ -11,6 +11,7 @@ btnInc.addEventListener('click', () => {
   if (contador >= 0) {
     contador++;
     actualizar();
+    
   } else {
     alert("El contador no puede ser negativo");
   }
