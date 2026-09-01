@@ -7,3 +7,9 @@
 | Angel Vicente | `AngelSonVicente` | [Perfil](https://github.com/AngelSonVicente) |
 | Michael Marín | `MichaelMarinReyes` | [Perfil](https://github.com/MichaelMarinReyes) |
 | Miguel Quemé | `OkKid-A` | [Perfil](https://github.com/OkKid-A) |
+
+
+## Version 1.1.0
+
+
+
