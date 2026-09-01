@@ -3,6 +3,8 @@ const valorEl = document.getElementById('valor');
 const btnInc = document.getElementById('btn-incrementar');
 const btnDec = document.getElementById('btn-decrementar');
 
+// Commit de prueba - Miguel Queme: Integrante A - reflog
+
 function actualizar() {
   valorEl.textContent = contador;
 }
