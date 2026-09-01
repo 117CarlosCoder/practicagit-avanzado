@@ -8,7 +8,7 @@ function actualizar() {
 }
 
 btnInc.addEventListener('click', () => {
-  if (contador >= 0) {
+  if (contador <= 0) {
     contador++;
     actualizar();
   } else {
